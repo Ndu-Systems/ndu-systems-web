@@ -1,0 +1,8 @@
+.home-banner {
+  background-image: url("../../assets/images/banner-background.svg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: 25vw;
+  background-position-y: 15vh;
+}
+/*# sourceMappingURL=home.component.css.map */

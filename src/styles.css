@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+.col-1-of-3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 30% auto;
+      grid-template-columns: 30% 30% auto;
+  grid-gap: 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.col-1-of-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% auto;
+      grid-template-columns: 50% auto;
+  grid-gap: 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.col-1-of-4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% auto;
+      grid-template-columns: 25% 25% 25% auto;
+  grid-gap: 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+html, body {
+  font-family: 'Montserrat';
+  background: #FE9B24;
+  padding: 1rem;
+  color: #FF5A1A;
+}
+
+html a, body a {
+  text-decoration: none;
+}
+
+header {
+  padding: 2em;
+}
+
+header div {
+  text-align: center;
+}
+
+header .logo {
+  margin-top: -2rem;
+  float: left;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+header .burger-menu {
+  margin-top: 1rem;
+  float: right;
+  cursor: pointer;
+}
+
+.home-banner {
+  height: 70vh;
+}
+/*# sourceMappingURL=styles.css.map */
