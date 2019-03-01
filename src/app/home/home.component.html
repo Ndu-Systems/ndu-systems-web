@@ -1,3 +1,9 @@
+
+<div *ngIf="showNav">
+    <app-navigation
+    (closeNavAction)="closeNav($event)"
+    ></app-navigation>
+  </div>
 <header>
   <div class="col-1-of-3">
     <div>
@@ -7,7 +13,7 @@
       <h1>Request Quote</h1>
     </div>
     <div>
-      <img src="../../assets/images/menu.svg" class="burger-menu" alt="burger-menu">
+      <img src="../../assets/images/menu.svg" class="burger-menu" alt="burger-menu" (click)=" openNav()">
     </div>
   </div>
 </header>

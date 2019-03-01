@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import './variables';
 @import './grid';
+@import './keyframes';
+
 html, body {
 
     font-family: 'Montserrat';
@@ -40,3 +42,70 @@ header{
 .home-banner{
     height: 70vh;        
 }
+
+nav {
+    position: absolute;
+    background: $orange-color;
+    padding: 2em;
+    width: 92.5vw;
+    height: 90vh;
+    transform: scaleX(0);
+    transform-origin: right;
+
+    .close-btn{
+        float: right;
+        cursor: pointer;
+        opacity: 0;
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 10% auto 0 auto;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        width: 80%;
+
+        a{
+            color: $white-clouds-color;
+            font-weight: 700;
+            font-size: 1.4em;
+        }
+
+        span{
+            color:  $white-clouds-color;
+            display: block;
+            font-size: .75em;
+            margin-top: 20px;
+        }
+
+        li{
+            opacity: 0;
+        }
+    }
+}
+
+.show-menu{
+    animation: slide-menu 1s ease-in forwards;
+   
+    .close-btn{
+        animation: show-x 1s 1s forwards;
+    }
+
+    li:nth-of-type(1){
+        animation: menu-item-animate  .6s forwards 1s ease-in-out;
+    }
+    li:nth-of-type(2){
+        animation: menu-item-animate  .6s forwards 1.3s ease-in-out;
+    }
+    li:nth-of-type(3){
+        animation: menu-item-animate  .6s forwards 1.6s ease-in-out;
+    }
+    li:nth-of-type(4){
+        animation: menu-item-animate  .6s forwards 1.9s ease-in-out;
+    }
+}
+
+ 
+
+ 
