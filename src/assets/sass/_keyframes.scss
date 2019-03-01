@@ -28,3 +28,35 @@
         opacity: 1;
     }
 }
+
+@keyframes close-slide-menu {
+
+    from {
+        transform: scaleX(1);
+    }
+    to {
+        transform: scaleX(0);
+    }
+}
+
+@keyframes close-x {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes hide-menu-item-animate {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(60%);
+        opacity: 0;
+    }
+}
