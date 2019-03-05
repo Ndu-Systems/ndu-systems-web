@@ -8,7 +8,7 @@ import { NavigationEventEmiter } from './navigationEventEmiter';
 })
 export class NavigationComponent implements OnInit {
 
-  @Output() closeNavAction : EventEmitter<
+  @Output() closeNavAction: EventEmitter<
   NavigationEventEmiter> = new EventEmitter();
 
   constructor() { }

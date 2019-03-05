@@ -1,13 +1,24 @@
-import { HomeComponent } from './home/home.component';
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent, HomeHeaderComponent } from './home';
+import { NavigationComponent } from './navigation';
+import { RequestQouteComponent } from './request-qoute';
 
 const routes: Routes = [
-  {path:'',component:HomeComponent}
+  { path: '', component: HomeComponent },
+  { path: 'request-quote', component: RequestQouteComponent }
 ];
 
+export const declarations: Array<any> = [
+  NavigationComponent,
+  HomeComponent,
+  HomeHeaderComponent,
+  RequestQouteComponent]
+
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{useHash:true})],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

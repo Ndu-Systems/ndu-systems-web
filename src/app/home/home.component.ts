@@ -13,12 +13,14 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  openNav() {
-    this.showNav = true;
+  openNav(event: NavigationEventEmiter) {
+    if (!event.closeNav) {
+      this.showNav = true;
+    }
   }
 
   closeNav(event: NavigationEventEmiter) {
-    if(event.closeNav) {
+    if (event.closeNav) {
       this.showNav = false;
     }
   }
