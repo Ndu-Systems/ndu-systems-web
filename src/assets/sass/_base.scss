@@ -66,6 +66,12 @@ nav {
     opacity: 0;
   }
 
+  .logo{
+
+    float: left;
+    opacity: 0;
+  }
+
   ul {
     list-style-type: none;
     margin: 10% auto 0 auto;
@@ -100,6 +106,10 @@ nav {
     animation: show-x 1s 1s forwards;
   }
 
+  .logo{
+    animation: show-x 1s 1s forwards;
+  }
+
   li:nth-of-type(1) {
     animation: menu-item-animate .6s forwards 1s ease-in-out;
   }
@@ -117,13 +127,5 @@ nav {
   }
 }
 
-.close-btn::after {
-
-    nav {
-
-        animation: close-slide-menu 1s ease-in forwards;        
-
-    }
-}
-
+ 
  
