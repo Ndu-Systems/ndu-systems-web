@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.535" height="47.713" viewBox="0 0 44.535 47.713">
+  <g id="explore" transform="translate(-937.43 -906.322)">
+    <text id="explore-2" data-name="explore" transform="translate(946 928)" fill="#ff5a1a" font-size="9" font-family="Nunito-Light, Nunito" font-weight="300"><tspan x="0" y="0">explore</tspan></text>
+    <g id="Group_1" data-name="Group 1" transform="translate(956.247 936.074)">
+      <path id="chevron-down-solid" d="M8.77,127.484l-3.005-3.005a.371.371,0,0,1,0-.525l.351-.351a.371.371,0,0,1,.524,0l2.393,2.382,2.393-2.382a.371.371,0,0,1,.524,0l.351.351a.371.371,0,0,1,0,.525L9.3,127.484A.371.371,0,0,1,8.77,127.484Z" transform="translate(-5.656 -123.495)" fill="#ff5a1a"/>
+      <path id="chevron-down-solid-2" data-name="chevron-down-solid" d="M8.77,127.484l-3.005-3.005a.371.371,0,0,1,0-.525l.351-.351a.371.371,0,0,1,.524,0l2.393,2.382,2.393-2.382a.371.371,0,0,1,.524,0l.351.351a.371.371,0,0,1,0,.525L9.3,127.484A.371.371,0,0,1,8.77,127.484Z" transform="translate(-5.656 -119.522)" fill="#ff5a1a"/>
+    </g>
+    <path id="Path_1" data-name="Path 1" d="M-1006.591-254.211h-18.146V-209.5h18.146" transform="translate(1963.667 1162.033)" fill="none" stroke="#9e9c9b" stroke-width="3" opacity="0.2"/>
+    <path id="Path_2" data-name="Path 2" d="M-1024.737-254.211h17.024V-209.5h-17.024" transform="translate(1988.177 1162.033)" fill="none" stroke="#9e9c9b" stroke-width="3" opacity="0.2"/>
+  </g>
+</svg>

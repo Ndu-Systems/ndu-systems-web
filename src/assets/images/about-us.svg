@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="502" height="90.316" viewBox="0 0 502 90.316">
+  <defs>
+    <filter id="Rectangle_4" x="0" y="0" width="502" height="90.316" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="about-us" transform="translate(9 5)">
+    <g transform="matrix(1, 0, 0, 1, -9, -5)" filter="url(#Rectangle_4)">
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="484" height="72.316" transform="translate(9 5)" fill="#ff5a1a"/>
+    </g>
+    <text id="ABOUT_US" data-name="ABOUT US" transform="translate(187 39.965)" fill="#ecf0f1" font-size="13" font-family="Nunito-Light, Nunito" font-weight="300"><tspan x="0" y="0">ABOUT US</tspan></text>
+  </g>
+</svg>
