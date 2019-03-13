@@ -3,20 +3,27 @@
 @import './grid';
 @import './keyframes';
 
- 
 
-html,
-body {
+html,body {
 
-  font-family: 'Montserrat';
-  background: $orange-light-color; 
-background: linear-gradient(45deg,  $orange-light-color 14%,$orange-medium-color 52%,$orange-color 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
+  font-family: 'Montserrat';  
+  background: linear-gradient(45deg, $orange-light-color 14%, $orange-medium-color 52%, $orange-color 100%);
   padding: 1rem;
   color: $orange-color;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 
   a {
     text-decoration: none;
+  }
+  @media only screen and (max-width: $bp-largest) {
+    padding: 0;
+    font-size: 50%;
+  }
+  @media only screen and (max-width: $bp-large) {
+    padding: 0;
+    font-size: 50%;
   }
 }
 
@@ -55,7 +62,7 @@ nav {
   position: absolute;
   background: $orange-color;
   padding: 2em;
-  width: 92.5vw;
+  width: 96vw;
   height: 79vh;
   transform: scaleX(0);
   transform-origin: right;
@@ -66,7 +73,7 @@ nav {
     opacity: 0;
   }
 
-  .logo{
+  .logo {
 
     float: left;
     opacity: 0;
@@ -83,7 +90,7 @@ nav {
     a {
       color: $white-clouds-color;
       font-weight: 700;
-      font-size: 1.4em;
+      font-size: 3rem;
     }
 
     span {
@@ -97,16 +104,43 @@ nav {
       opacity: 0;
     }
   }
+
+  @media only screen and (max-width: $bp-largest) {
+    width: 98vw;
+    .close-btn {
+      height: 5rem;
+    }
+
+    ul a {
+      font-size: 2.5rem;
+    }
+  }
+  @media only screen and (max-width: $bp-large) {
+    width: 97.7vw;
+    .close-btn {
+      height: 4rem;
+    }
+  }
+  @media only screen and (max-width: $bp-medium) {
+    width: 97vw;
+    .close-btn {
+      height: 3rem;
+    }
+    ul a {
+      font-size: 2rem;
+    }
+  }
 }
 
 .show-menu {
   animation: slide-menu 1s ease-in forwards;
+  z-index: 99999999999999;
 
   .close-btn {
     animation: show-x 1s 1s forwards;
   }
 
-  .logo{
+  .logo {
     animation: show-x 1s 1s forwards;
   }
 
@@ -126,6 +160,3 @@ nav {
     animation: menu-item-animate .6s forwards 1.9s ease-in-out;
   }
 }
-
- 
- 

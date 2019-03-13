@@ -3,4 +3,11 @@
 .main-container{
     background:$black-bg-color;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    max-width: 200rem;
+
+    @media only screen and (max-width: $bp-largest) {
+        padding: 0;
+        max-width: 100%;
+        width: 100%;
+    }
 }
