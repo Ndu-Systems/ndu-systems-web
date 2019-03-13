@@ -1,0 +1,17 @@
+.map-section {
+    padding-top: 40rem;
+    padding-bottom: 10rem;
+
+    img {
+
+        &.sharing {
+            height: 45rem;
+        }
+
+        &.insta {
+            position: absolute;
+            top: 160rem;
+            right: 35rem;
+        }
+    }
+}
