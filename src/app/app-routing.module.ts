@@ -1,7 +1,7 @@
 
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent, HomeHeaderComponent, HomeBannerComponent } from './home';
+import { HomeComponent, HomeHeaderComponent, HomeBannerComponent, HomeMapComponent, HomePackagesComponent } from './home';
 import { NavigationComponent } from './navigation';
 import { RequestQouteComponent } from './request-qoute';
 
@@ -15,8 +15,10 @@ export const declarations: Array<any> = [
   HomeComponent,
   HomeHeaderComponent,
   RequestQouteComponent,
-  HomeBannerComponent
-]
+  HomeBannerComponent,
+  HomeMapComponent,
+  HomePackagesComponent
+];
 
 
 @NgModule({
