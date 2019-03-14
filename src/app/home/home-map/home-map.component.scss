@@ -1,17 +1,102 @@
+@import '../../../assets/sass/variables';
+
 .map-section {
-    padding-top: 40rem;
-    padding-bottom: 10rem;
+  padding-top: 40rem;
+  padding-bottom: 10rem;
+
+  img {
+
+    &.sharing {
+      height: 45rem;
+    }
+
+    &.insta {
+      position: absolute;
+      top: 160rem;
+      right: 35rem;
+    }
+  }
+}
+.gallery-section {
+    padding: 5rem;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    h1 {
+        font-size: 7.5rem;
+        color : $gray-color;
+        font-weight: 500;
+    }
+
+    .col-1-of-3 {
+        padding-left: 15rem;
+    }
+    .gallery {
+        img {
+            height: 30rem;
+        }
+    }
+}
+//Media queries
+@media only screen and (max-width: $bp-largest) {
+
+  .map-section {
+    padding-top: 20rem;
+
+    img {
+      &.sharing {
+        height: 35rem;
+      }
+
+      &.map {
+        height: 55rem;
+      }
+
+      &.insta {
+        top: 120rem;
+        right: 22rem;
+        height: 25rem;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: $bp-large) {
+  .map-section {
+    img {
+      &.map {
+        height: 50rem;
+      }
+
+      &.insta {
+        top: 120rem;
+        right: 27rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $bp-medium) {
+  .map-section {
+    padding-top: 10rem;
 
     img {
 
-        &.sharing {
-            height: 45rem;
-        }
+      &.sharing {
+        height: 35rem;
+      }
 
-        &.insta {
-            position: absolute;
-            top: 160rem;
-            right: 35rem;
-        }
+      &.map {
+        height: 40rem;
+      }
+
+      &.insta {
+        top: 100rem;
+        right: 20rem;
+        height: 20rem;
+      }
     }
+  }
+
 }

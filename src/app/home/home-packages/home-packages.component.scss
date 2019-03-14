@@ -1,0 +1,21 @@
+
+@import '../../../assets/sass/variables';
+
+.packages-section
+{
+    padding: 5rem;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    background: $white-clouds-color;
+
+    h1 {      
+        font-size: 7.5rem;
+        font-weight: 500;
+        padding-bottom: 5rem;
+    }
+
+    .col-1-of-3 {        
+        padding-left: 15rem;
+    }
+}

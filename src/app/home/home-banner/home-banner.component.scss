@@ -9,7 +9,7 @@
 
 .carousel-item {
   position: absolute;
-  top: 0;
+  top: 5rem;
   bottom: 0;
   left: 0;
   right: 0;
@@ -87,7 +87,7 @@
       padding: 3rem;
       text-transform: uppercase;
       &.gray {
-        background: #2e373d;
+        background: $gray-color;
       }
     }
 }
