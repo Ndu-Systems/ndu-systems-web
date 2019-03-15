@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NavigationEventEmiter } from './navigation/navigationEventEmiter';
+ 
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ndu-systems-web';
+  showNav: boolean;
+  constructor() { }
+
+openNav(event: NavigationEventEmiter) {
+    if (!event.closeNav) {
+      this.showNav = true;
+    }
+  }
+
+  closeNav(event: NavigationEventEmiter) {
+    if (event.closeNav) {
+      this.showNav = false;
+    }
+  }
+
 }

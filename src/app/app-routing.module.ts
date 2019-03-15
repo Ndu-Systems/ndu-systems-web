@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent, HomeHeaderComponent, HomeBannerComponent, HomeMapComponent, HomePackagesComponent } from './home';
 import { NavigationComponent } from './navigation';
 import { RequestQouteComponent } from './request-qoute';
+import { FooterComponent } from './footer';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,7 +18,8 @@ export const declarations: Array<any> = [
   RequestQouteComponent,
   HomeBannerComponent,
   HomeMapComponent,
-  HomePackagesComponent
+  HomePackagesComponent,
+  FooterComponent
 ];
 
 
