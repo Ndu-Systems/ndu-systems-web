@@ -161,3 +161,24 @@ nav {
     animation: menu-item-animate .6s forwards 1.9s ease-in-out;
   }
 }
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(42, 42, 42);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $orange-light-color;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
