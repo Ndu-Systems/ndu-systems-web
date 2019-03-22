@@ -1,21 +1,30 @@
-
 @import '../../../assets/sass/variables';
 
-.packages-section
-{
-    padding: 5rem;
-    padding-right: 0;
-    padding-left: 0;
-    text-align: center;
-    background: $white-clouds-color;
+.packages-section {
+  padding: 5rem;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+  background: $white-clouds-color;
+ img {
+    height: 100vh;
+ }
+  h1 {
+    font-size: 7.5rem;
+    font-weight: 500;
+    padding-bottom: 5rem;
+  }
 
-    h1 {      
-        font-size: 7.5rem;
-        font-weight: 500;
-        padding-bottom: 5rem;
-    }
+  .col-1-of-3 {
+    padding-left: 15rem;
+  }
+}
 
-    .col-1-of-3 {        
-        padding-left: 15rem;
+//media queries
+@media only screen and (max-width: $bp-largest) {
+  .packages-section {
+    .col-1-of-3 {
+      padding-left: 0;
     }
+  }
 }

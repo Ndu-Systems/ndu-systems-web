@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeMapComponent } from './home/home-map/home-map.component';
 import { HomePackagesComponent } from './home/home-packages/home-packages.component';
 import { FooterComponent } from './footer/footer.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,7 +18,9 @@ import { FooterComponent } from './footer/footer.component';
    ],
    imports: [
       BrowserModule,
-      AppRoutingModule
+      AppRoutingModule,
+      FormsModule,
+      ReactiveFormsModule
    ],
    providers: [],
    bootstrap: [
