@@ -24,3 +24,15 @@ $pink-color: #E91E63;
  $bp-largest:75em; //1200px
  $bp-large:68.75em; //1100px 
  $bp-medium: 56.25em; //900px
+
+ //Device break-points
+ $bp-ipad-pro : 64em; // (1024px / 16px)
+ $bp-ipad : 48em; // (768px / 16px)
+
+
+ $bp-iphone-8-plus: 25.875em; // (414px/16px) 
+ $bp-pixel-2 : 25.6875em; // (411px/16px) 
+
+ $bp-iphone-x: 23.4375em; // (375px/16px)
+ $bp-galaxy-5: 22.5em; // (360px/16px)
+ $bp-iphone-5: 20em; // (320px/16px)

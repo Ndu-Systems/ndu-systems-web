@@ -1,7 +1,19 @@
-.home-banner{
-    background-image: url("../../assets/images/banner-background.svg");
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position-x: 25vw;
-    background-position-y: 15vh;
+@import '../../assets/sass/variables';
+
+.home-banner {
+  background-image: url("../../assets/images/banner-background.svg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: 25vw;
+  background-position-y: 0vh;
+
+   
+
 }
+
+
+//Media query
+
+@media only screen and (max-width: $bp-ipad) {}
+
+@media only screen and (max-width: $bp-iphone-8-plus) {}

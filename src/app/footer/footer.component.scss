@@ -1,32 +1,48 @@
 @import '../../assets/sass/variables';
 
 .footer-section {
-    padding: 15rem;
-    text-align: center;
+  padding: 15rem;
+  text-align: center;
+  color: $white-dark-color;
+
+  .link {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
     color: $white-dark-color;
-    .link {
-        font-size: 2rem;
-        font-weight: 400;
-        text-transform: uppercase;
-        color: $white-dark-color;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .col-1-of-2 {
+    padding: 3rem;
+  }
+
+  .connect {
+    text-align: center;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 300;
     }
 
     img {
-        margin: 0 auto;
-    }
+      margin: 1rem;
 
-    .col-1-of-2 {
-        padding: 3rem;
     }
-    .connect {
-        text-align: center;
-        h1 {
-            font-size: 3rem;
-            font-weight: 300;
-        }
-        img {
-            margin: 1rem;
-            
-        }
-    }
+  }
+}
+
+
+@media only screen and (max-width: $bp-iphone-8-plus) {
+  .col-1-of-2 {
+    grid-template-columns: 100%;
+    padding: 0;
+  }
+
+  .col-1-of-3 {
+    grid-template-columns: 100%;
+  }
 }
