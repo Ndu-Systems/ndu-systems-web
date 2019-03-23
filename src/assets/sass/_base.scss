@@ -4,7 +4,7 @@
 @import './keyframes';
 @import './components/button';
 @import './components/form';
-
+@import './components/card';
 
 html,body {
 
@@ -64,7 +64,7 @@ nav {
   position: absolute;
   background: $orange-color;
   padding: 2em;
-  width: 96vw;
+  width: 95.444vw;
   height: 79vh;
   transform: scaleX(0);
   transform-origin: right;

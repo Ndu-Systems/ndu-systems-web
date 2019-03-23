@@ -1,22 +1,61 @@
 @import '../../../assets/sass/variables';
 
 .packages-section {
-  padding: 5rem;
+  padding: 2rem;
   padding-right: 0;
   padding-left: 0;
   text-align: center;
-  background: $white-clouds-color;
- img {
+
+  img {
     height: 100vh;
- }
+  }
+
   h1 {
     font-size: 7.5rem;
     font-weight: 500;
-    padding-bottom: 5rem;
   }
 
-  .col-1-of-3 {
-    padding-left: 15rem;
+  .card {
+    .card-title {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    .card-price h1 {
+      font-size: 46px;
+    }
+
+    &:nth-child(2) {
+
+      .card-title,
+      .card-price {
+        h1 {
+          color: $orange-color;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+
+      .card-title,
+      .card-price {
+        h1 {
+          color: $pink-color;
+        }
+      }
+
+      button {
+        border: 2px solid $pink-color;
+        color: $pink-color;
+
+        &:hover {
+          background-color: $pink-color;
+          box-shadow: 0 2px 4px darken($pink-color, 20);
+          color: $white-clouds-color;
+        }
+      }
+    }
   }
 }
 
