@@ -5,10 +5,12 @@ import { HomeComponent, HomeHeaderComponent, HomeBannerComponent, HomeMapCompone
 import { NavigationComponent } from './navigation';
 import { RequestQouteComponent } from './request-qoute';
 import { FooterComponent } from './footer';
+import { AboutUsComponent } from './about-us';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'request-quote', component: RequestQouteComponent }
+  { path: 'request-quote', component: RequestQouteComponent },
+  { path: 'about-us', component: AboutUsComponent }
 ];
 
 export const declarations: Array<any> = [
@@ -19,7 +21,8 @@ export const declarations: Array<any> = [
   HomeBannerComponent,
   HomeMapComponent,
   HomePackagesComponent,
-  FooterComponent
+  FooterComponent,
+  AboutUsComponent
 ];
 
 
