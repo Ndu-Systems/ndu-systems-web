@@ -7,6 +7,7 @@ import { HomePackagesComponent } from './home/home-packages/home-packages.compon
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { OurServicesComponent } from './our-services/our-services.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
       HomeMapComponent,
       HomePackagesComponent,
       FooterComponent,
-      AboutUsComponent
+      AboutUsComponent,
+      OurServicesComponent
    ],
    imports: [
       BrowserModule,
