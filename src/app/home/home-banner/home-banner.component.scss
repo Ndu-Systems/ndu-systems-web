@@ -5,6 +5,7 @@
   position: relative;
   width: 80vw;
   margin: 0 auto;
+
 }
 
 .carousel-item {
@@ -20,6 +21,7 @@
   img {
     height: 35rem;
     margin: 0 auto;
+    opacity: 0;
   }
 
   @media only screen and (max-width: $bp-largest) {
@@ -40,6 +42,13 @@
     }
   }
 
+}
+
+.carousel-item {
+  animation: curousel-show 1 forwards 0.5s ease-in;
+  img {
+    animation: move-object-right 1.5s forwards 0.6s linear;
+  }
 }
 
 .arrow {
@@ -119,6 +128,7 @@
   h1 {
     font-weight: 900;
     font-size: 5rem;
+    opacity: 0;
   }
 
   p {
@@ -127,9 +137,14 @@
     font-size: 2rem;
   }
 
+  .button {
+    opacity: 0;
+  }
+
   img {
     height: 5rem;
     margin-top: 2rem;
+    opacity: 0;
   }
 
   @media only screen and (max-width: $bp-largest) {
@@ -170,6 +185,17 @@
     img {
       height: 3rem;
     }
+  }
+
+}
+
+.caption {
+  h1 {
+    animation: move-object-left 1.2s forwards 0.5s ease-in;
+  }
+
+  .button {
+    animation: move-object-up 1s forwards 0.6s ease-in;
   }
 
 }
@@ -247,5 +273,5 @@
   .explore {
     left: 17.5rem;
   }
- 
+
 }

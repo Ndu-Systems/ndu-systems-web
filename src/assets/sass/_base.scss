@@ -150,7 +150,7 @@ nav {
 }
 
 
-
+// animations begin here
 .show-menu {
   animation: slide-menu 1s ease-in forwards;
   z-index: 99999999999999;
@@ -179,6 +179,9 @@ nav {
     animation: menu-item-animate .6s forwards 1.9s ease-in-out;
   }
 }
+ 
+
+// animations end here
 
 
 /* width */
@@ -200,3 +203,4 @@ nav {
 ::-webkit-scrollbar-thumb:hover {
   background: black;
 }
+
