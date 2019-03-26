@@ -5,6 +5,7 @@
 @import './components/button';
 @import './components/form';
 @import './components/card';
+@import './components/banner-header';
 
 html,body {
 
@@ -60,6 +61,11 @@ header {
   height: 70vh;
 }
 
+.main-section {
+  height: 125vh;
+  padding: 5%;
+  padding-top: 1%;
+}
 nav {
   position: absolute;
   background: $orange-color;
@@ -98,7 +104,7 @@ nav {
     span {
       color: $white-clouds-color;
       display: block;
-      font-size: .75em;
+      font-size: 2em;
       margin-top: 20px;
     }
 
