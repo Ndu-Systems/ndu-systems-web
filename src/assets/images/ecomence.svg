@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="325" height="325" viewBox="0 0 325 325">
+  <g id="ecomence" transform="translate(-772 -3673)">
+    <g id="Ellipse_45" data-name="Ellipse 45" transform="translate(772 3673)" fill="none" stroke="#ff5a1a" stroke-width="15">
+      <circle cx="162.5" cy="162.5" r="162.5" stroke="none"/>
+      <circle cx="162.5" cy="162.5" r="155" fill="none"/>
+    </g>
+    <g id="Group_78" data-name="Group 78" transform="translate(-2319 18923)">
+      <circle id="Ellipse_61" data-name="Ellipse 61" cx="100" cy="100" r="100" transform="translate(3154 -15187)" fill="#fff"/>
+      <g id="Cart-Byyh63muN" transform="translate(3175.706 -15160.354)">
+        <g id="Group_77" data-name="Group 77" transform="translate(17.294 19.353)">
+          <path id="Path_21" data-name="Path 21" d="M2.837.149A2.947,2.947,0,0,0,0,2.986,3.06,3.06,0,0,0,2.837,5.824H17.023c2.3,0,3.3.6,3.724,2.128l1.2,6.384h5.763L26.288,6.666q-.04-.113-.089-.222c-1.14-4.092-5.176-6.3-9.177-6.3ZM22.964,20.01l3.414,18.442h27.53V20.01H22.964Zm36.618,0V38.451H85.116V20.01Zm31.209,0V38.451H117.7L122,20.01ZM27.441,44.126l3.414,18.442H53.907V44.126Zm32.14,0V62.568H85.116V44.126Zm31.209,0V62.568H102.14c6.646,0,9.96-1.165,11.881-8.334l2.35-10.108ZM31.919,68.242l2.172,11.837a2.931,2.931,0,0,0,2.793,2.35h70.93a2.838,2.838,0,1,0,0-5.675H39.233l-1.552-8.512ZM51.07,90.94a8.512,8.512,0,1,0,8.512,8.512A8.512,8.512,0,0,0,51.07,90.94Zm45.4,0a8.512,8.512,0,1,0,8.512,8.512A8.512,8.512,0,0,0,96.465,90.94Z" transform="translate(0 -0.149)" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
