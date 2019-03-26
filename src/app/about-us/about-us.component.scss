@@ -1,0 +1,103 @@
+@import "../../assets/sass/variables";
+
+.main-section {
+  height: 260vh;
+
+  .container {
+    height: 60vh;
+  }
+
+  .slogan {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 600;
+
+    h1 {
+        opacity: 0;
+    }
+   
+  }
+
+  .slogan {
+      h1 {
+        animation: menu-item-animate 1s forwards 1s ease-in-out;
+      }
+  }
+
+  .information {
+    text-align: center;
+
+    img {
+      height: 20.9rem;
+    }
+
+    h1 {
+      padding: 10%;
+      padding-top: 5%;
+
+      span.description {
+        color: $white-clouds-color;
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+    }
+
+  }
+
+  .about {
+    padding-bottom: 10rem;
+
+    .information {
+      img {
+        height: 40rem;
+      }
+
+      h1 {
+        padding: 2%;
+        text-align: right;
+
+        span {
+
+            &.header {
+                font-size: 2.5rem;
+                margin: 0 3rem;
+
+            }
+            &.description {
+                font-size: 2rem;
+            }
+        }
+       
+
+      }
+
+      &.vision {
+          h1 {
+            text-align: left;             
+          }
+      }
+
+      &.tech {
+          h1 {
+              text-align: left;
+          }
+
+          ul {
+              list-style-type: none;
+              text-align: left;
+              li {
+                display: block;                
+                padding: 1%;
+                padding-left: 0;
+                font-size: 3rem;
+                color: $white-clouds-color;
+                text-transform: uppercase;
+                font-weight: 700;
+              }
+          }
+      }
+
+    }
+  }
+
+}

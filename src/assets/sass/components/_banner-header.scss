@@ -28,6 +28,13 @@ background: #0101011f;
       font-size: 4rem;
       font-weight: 700;
       display: inline-block;
+      opacity: 0;
+    }
+  }
+
+  h1 {
+    .header {
+      animation: move-object-left 1.2s forwards 0.5s ease-in;
     }
   }
 }
