@@ -274,4 +274,56 @@
     left: 17.5rem;
   }
 
+  .cta-section {
+    &.col-1-of-2 {
+      grid-template-columns: 100%;
+
+      .button {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
 }
+@media only screen and (max-width: 28.2rem) {
+
+  
+  .carousel-wrapper {
+    .carousel-item {
+      img {
+        display: none;
+      }
+
+      .caption {
+        text-align: center;
+
+        p {
+          width: 100%;
+        }
+
+        .button {
+          padding: 10px 32px;
+          margin: 15px 2px;
+        }
+      }
+
+      .col-1-of-2 {
+        grid-template-columns: 100%;
+      }
+    }
+  }
+
+  .explore {
+    left: 17.5rem;
+  }
+
+  .cta-section {
+    &.col-1-of-2 {
+      grid-template-columns: 100%;
+
+      .button {
+        font-size: 1.5rem;
+      }
+    }
+  }
+ }

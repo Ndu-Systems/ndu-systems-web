@@ -7,9 +7,10 @@
 @import './components/card';
 @import './components/banner-header';
 
-html,body {
+html,
+body {
 
-  font-family: 'Montserrat';  
+  font-family: 'Montserrat';
   background: linear-gradient(45deg, $orange-light-color 14%, $orange-medium-color 52%, $orange-color 100%);
   padding: 1rem;
   color: $orange-color;
@@ -20,10 +21,12 @@ html,body {
   a {
     text-decoration: none;
   }
+
   @media only screen and (max-width: $bp-largest) {
     padding: 0;
     font-size: 50%;
   }
+
   @media only screen and (max-width: $bp-large) {
     padding: 0;
     font-size: 50%;
@@ -71,6 +74,7 @@ header {
   height: 80vh;
   padding: 2%;
 }
+
 nav {
   position: absolute;
   background: $orange-color;
@@ -120,6 +124,7 @@ nav {
 
   @media only screen and (max-width: $bp-largest) {
     width: 98vw;
+
     .close-btn {
       height: 5rem;
     }
@@ -128,17 +133,22 @@ nav {
       font-size: 2.5rem;
     }
   }
+
   @media only screen and (max-width: $bp-large) {
     width: 97.7vw;
+
     .close-btn {
       height: 4rem;
     }
   }
+
   @media only screen and (max-width: $bp-medium) {
     width: 97vw;
+
     .close-btn {
       height: 3rem;
     }
+
     ul a {
       font-size: 2rem;
     }
@@ -152,6 +162,52 @@ nav {
     height: 30vh;
   }
 
+}
+
+@media only screen and (max-width: $bp-iphone-8-plus) {
+
+  nav ul {
+    padding: 10rem;
+    padding-left: 0;
+    display: block;
+
+    li {
+      padding-bottom: 2rem;
+
+      span {
+        display: none;
+      }
+    }
+  }
+
+  .show-menu {
+    .close-btn {
+      margin: 4rem;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 28.2rem) {
+  nav ul {
+    padding: 10rem;
+    padding-left: 0;
+    display: block;
+
+    li {
+      padding-bottom: 2rem;
+
+      span {
+        display: none;
+      }
+    }
+  }
+
+  .show-menu {
+    .close-btn {
+      margin: 4rem;
+    }
+  }
 }
 
 
@@ -184,7 +240,7 @@ nav {
     animation: menu-item-animate .6s forwards 1.9s ease-in-out;
   }
 }
- 
+
 
 // animations end here
 
@@ -208,4 +264,3 @@ nav {
 ::-webkit-scrollbar-thumb:hover {
   background: black;
 }
-

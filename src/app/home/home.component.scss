@@ -16,4 +16,8 @@
 
 @media only screen and (max-width: $bp-ipad) {}
 
-@media only screen and (max-width: $bp-iphone-8-plus) {}
+@media only screen and (max-width: $bp-iphone-8-plus) {
+  .home-banner {
+    height: 80vh;
+  }
+}

@@ -1,3 +1,5 @@
+@import "../../assets/sass/variables";
+
 .section-body {
   h1 {
     font-size: 3.5rem;
@@ -9,7 +11,7 @@
     text-align: center;
     width: 45%;
     margin: 0 auto;
-    color: #fff;
+    color: $white-clouds-color;
   }
 
   .col-1 {
@@ -37,7 +39,7 @@
       text-align: center;
 
       h2 {
-        color: #fff;
+        color: $white-clouds-color;
         font-size: 2rem;
         font-weight: 300;
       }
@@ -75,3 +77,33 @@
     0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); }
     100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
  } 
+
+
+
+ //media queries
+ @media only screen and (max-width: 28.2rem) {
+   .section-body {
+     .col-1 {
+       display: none;
+     }
+
+     .col-3 {
+      grid-template-columns: 100%;
+      div:nth-child(1) {
+        text-align: center;
+  
+        h2 {
+          color: $white-clouds-color;
+          font-size: 4rem;
+          font-weight: 700;
+        }
+      }
+
+      div:nth-child(3) {    
+          p {
+         display: none;
+        }
+      }
+     }
+   }
+ }

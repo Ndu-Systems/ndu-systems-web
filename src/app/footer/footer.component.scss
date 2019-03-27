@@ -36,12 +36,19 @@
 }
 
 
-@media only screen and (max-width: $bp-iphone-8-plus) {
-  .col-1-of-2 {
-    grid-template-columns: 100%;
+@media only screen and (max-width: $bp-iphone-8-plus) { 
+  .footer-section {
     padding: 0;
   }
+  .col-1-of-3 {
+    grid-template-columns: 100%;
+  }
+}
 
+@media only screen and (max-width: 28.2rem) {
+  .footer-section {
+    padding: 0;
+  }
   .col-1-of-3 {
     grid-template-columns: 100%;
   }

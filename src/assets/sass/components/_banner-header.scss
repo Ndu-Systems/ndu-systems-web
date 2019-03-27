@@ -1,5 +1,5 @@
 .banner-header {
-background: #0101011f;
+  background: #0101011f;
   background-image: url("./assets/images/banner-background.svg");
   background-repeat: no-repeat;
   background-size: 40%;
@@ -10,7 +10,7 @@ background: #0101011f;
 
 
   h1 {
-      
+
     padding: 18rem 0;
     padding-bottom: 0;
 
@@ -37,4 +37,66 @@ background: #0101011f;
       animation: move-object-left 1.2s forwards 0.5s ease-in;
     }
   }
+}
+
+
+//media queries
+
+@media only screen and (max-width: $bp-ipad-pro) {
+  .banner-header {
+    height: 20vh;
+    h1 {
+      padding-top: 10rem;
+    }
+  }
+
+}
+
+@media only screen and (max-width: $bp-ipad) {
+  .banner-header {
+    height: 20vh;
+
+    h1 {
+      .header {
+        font-size: 3rem;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 28.2rem) {
+  .banner-header {
+    background: transparent;
+    background-image: url("./assets/images/banner-background.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 20vw;
+    background-position-y: 0;
+
+    h1 {
+      padding: 10rem 10rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: $bp-iphone-8-plus) {
+
+  .banner-header {
+    background: transparent;
+    background-image: url("./assets/images/banner-background.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 20vw;
+    background-position-y: 0;
+
+    h1 {
+      padding: 10rem 10rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+
 }

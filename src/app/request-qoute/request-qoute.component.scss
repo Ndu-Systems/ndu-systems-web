@@ -1,10 +1,6 @@
 @import '../../assets/sass/variables';
 
 .main-section {
- 
-
- 
-
   .quote-form {
     margin-top: 5rem;
 
@@ -20,7 +16,7 @@
         font-size: 1.5rem;
         color: white;
         padding: 2rem;
-        background: lighten($orange-light-color,0.3) ;
+        background: lighten($orange-light-color, 0.3);
         width: 50%;
       }
 
@@ -43,5 +39,24 @@
         float: right;
       }
     }
+  }
+}
+
+
+//media queries
+@media only screen and (max-width: $bp-ipad-pro) {}
+
+@media only screen and (max-width: $bp-ipad) {
+
+  .information-section {
+    .col-1-of-3 {
+      grid-template-columns: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: $bp-iphone-8-plus) {
+  .col-2-of-3 {
+    grid-template-columns: 100%;
   }
 }
