@@ -88,3 +88,42 @@
     }
   }
 }
+@media only screen and (max-width: 28.2rem) {
+  .packages-section {
+    padding-top: 20rem;
+    h1 {
+      font-size: 3rem;
+      padding-bottom: 0;      
+    }
+
+    .card{
+      .card-price {
+        h1 {
+          font-size: 35px;
+        }
+      }
+      .card-title {
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    } 
+  }
+}
+@media only screen and (max-width: $bp-iphone-x) {
+  .packages-section {   
+
+    .card{
+      .card-price {
+        h1 {
+          font-size: 30px;
+        }
+      }
+      .card-title {
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+    } 
+  }
+}

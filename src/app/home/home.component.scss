@@ -1,13 +1,11 @@
 @import '../../assets/sass/variables';
 
 .home-banner {
-  background-image: url("../../assets/images/banner-background.svg");
+  background-image: url("../../assets/images/banner-background.png");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position-x: 25vw;
-  background-position-y: 0vh;
-
-   
+  background-position-y: 0vh;  
 
 }
 
@@ -19,5 +17,10 @@
 @media only screen and (max-width: $bp-iphone-8-plus) {
   .home-banner {
     height: 80vh;
+  }
+}
+@media only screen and (max-width: 28.2rem) {
+  .home-banner {
+    height: 70vh;
   }
 }

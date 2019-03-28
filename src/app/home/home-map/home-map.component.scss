@@ -159,15 +159,16 @@
 
 @media only screen and (max-width: $bp-iphone-8-plus) {
   .gallery-section {
- 
+
     .love-software {
-     display: none;
+      display: none;
     }
   }
 
   .map-section {
     padding-top: 0rem;
     padding-bottom: 10rem;
+
     .col-1-of-2 {
       grid-template-columns: 100%;
     }
@@ -178,9 +179,63 @@
 
       }
 
-      &.sharing {       
+      &.sharing {
         margin: 0 auto;
       }
+
+      &.insta {
+        top: 115rem;
+        right: 15rem;
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 28.2rem) {
+  .gallery-section {
+    .love-software {
+      display: none;
+    }
+  }
+
+  .map-section {
+    padding-top: 0rem;
+    padding-bottom: 10rem;
+
+    .col-1-of-2 {
+      grid-template-columns: 100%;
+    }
+
+    img {
+      &.map {
+        display: none;
+
+      }
+
+      &.sharing {
+        margin: 0 auto;
+      }
+
+      &.insta {
+        top: 120rem;
+        right: 20rem;
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: $bp-iphone-x) {
+  .gallery-section {
+    .love-software {
+      display: none;
+    }
+  }
+
+  .map-section {
+
+    img {
 
       &.insta {
         top: 115rem;

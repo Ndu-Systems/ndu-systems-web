@@ -46,6 +46,7 @@
 
 .carousel-item {
   animation: curousel-show 1 forwards 0.5s ease-in;
+
   img {
     animation: move-object-right 1.5s forwards 0.6s linear;
   }
@@ -271,7 +272,7 @@
   }
 
   .explore {
-    left: 17.5rem;
+    left: 19.5rem;
   }
 
   .cta-section {
@@ -285,9 +286,10 @@
   }
 
 }
+
 @media only screen and (max-width: 28.2rem) {
 
-  
+
   .carousel-wrapper {
     .carousel-item {
       img {
@@ -314,7 +316,7 @@
   }
 
   .explore {
-    left: 17.5rem;
+    left: 19.5rem;
   }
 
   .cta-section {
@@ -326,4 +328,21 @@
       }
     }
   }
- }
+}
+
+@media only screen and (max-width: $bp-iphone-x) {
+
+  .carousel-wrapper {
+    .carousel-item {
+      .caption {
+        p {
+          font-size: 1.222rem;
+        }
+      }
+    }
+  }
+  .explore {
+    left: 16rem;
+  }
+
+}

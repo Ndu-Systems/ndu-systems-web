@@ -1,6 +1,6 @@
 .banner-header {
   background: #0101011f;
-  background-image: url("./assets/images/banner-background.svg");
+  background-image: url("./assets/images/banner-background.png");
   background-repeat: no-repeat;
   background-size: 40%;
   background-position-x: 25vw;
@@ -45,6 +45,7 @@
 @media only screen and (max-width: $bp-ipad-pro) {
   .banner-header {
     height: 20vh;
+
     h1 {
       padding-top: 10rem;
     }
