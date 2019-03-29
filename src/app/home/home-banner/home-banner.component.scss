@@ -105,7 +105,12 @@
 
 
 @media (max-width: 480px) {
-
+  .more {
+    padding-top: 5rem;
+    .cta-section {
+      padding-top: 5rem;
+    }
+  }
   .arrow,
   .light .arrow {
     background-size: 10px;

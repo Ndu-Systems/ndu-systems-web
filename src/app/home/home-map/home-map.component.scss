@@ -186,8 +186,8 @@
       }
 
       &.insta {
-        top: 115rem;
-        right: 15rem;
+        position: inherit;
+        margin-left: 15rem;
       }
     }
 
@@ -219,10 +219,7 @@
         margin: 0 auto;
       }
 
-      &.insta {
-        top: 120rem;
-        right: 20rem;
-      }
+      
     }
 
   }
@@ -233,17 +230,9 @@
     .love-software {
       display: none;
     }
-  }
+  } 
+}
 
-  .map-section {
-
-    img {
-
-      &.insta {
-        top: 115rem;
-        right: 15rem;
-      }
-    }
-
-  }
+@media only screen and (max-width:  $bp-galaxy-5) { 
+ 
 }
