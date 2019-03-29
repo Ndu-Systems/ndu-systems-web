@@ -1,11 +1,9 @@
 @import "../../assets/sass/variables";
 
 .main-section {
-  height: 260vh;
+  height: 270vh;
 
-  .container {
-    height: 60vh;
-  }
+  padding-bottom: 10rem;
 
   .slogan {
     text-align: center;
@@ -107,68 +105,77 @@
 
 //media queries
 
-@media only screen and (max-width: $bp-ipad-pro) {
-
-  .main-section,
-  .container {
-    padding: 0;
+@media only screen and (max-width: $bp-ipad) {
+  .col-1-of-2 {
+    grid-gap: 0;
   }
 
   .main-section {
-    height: 200vh;
+    height: 170vh;
 
     .container {
-      height: 45vh;
+      height: 0;
     }
   }
+}
 
-
+@media only screen and (max-width: $bp-ipad-pro) {
   .col-1-of-2 {
     grid-gap: 0;
+  }
+
+  .main-section {
+    height: 160vh;
   }
 }
 
 @media only screen and (max-width: 28.2rem) {
   .main-section {
-    height: 340vh;
-    .container {
-      height: 70vh;
 
-      .slogan {
+    height: 370vh;
+
+    .slogan {
+      h1 {
+        display: none;
+      }
+    }
+
+    .col-1-of-2 {
+      grid-template-columns: 100%;
+    }
+
+    .about {
+      .information {
+
         h1 {
-          display: none;
+          text-align: center;
+
         }
-      }
 
-      .col-1-of-2 {
-        grid-template-columns: 100%;
-      }
+        &.vision {
+          text-align: center;
+        }
 
-      .about {
-        .information {
+        &.tech {
+          text-align: center;
 
           h1 {
             text-align: center;
 
           }
 
-          &.vision {
+          ul {
             text-align: center;
-          }
-
-          &.tech {
-            text-align: center;
-            ul {
-              text-align: center;
-            }
           }
         }
       }
-
     }
+
   }
-
-
 }
 
-@media only screen and (max-width: $bp-iphone-8-plus) {}
+@media only screen and (max-height: 700px) {
+  .main-section {
+    height: 430vh;
+  }
+}

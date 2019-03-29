@@ -246,6 +246,10 @@
     height: 30vh;
   }
 
+  .more {
+    padding-top: 0;
+  }
+
 }
 
 @media only screen and (max-width: $bp-iphone-8-plus) {
@@ -349,4 +353,10 @@
     left: 16rem;
   }
 
+}
+
+@media only screen and (max-height: 700px) {
+  .more {
+    padding-top: 5rem;
+  }
 }
