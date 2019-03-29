@@ -5,7 +5,7 @@
   position: relative;
   width: 80vw;
   margin: 0 auto;
-
+  display: block;
 }
 
 .carousel-item {
@@ -19,7 +19,7 @@
   transition: all 0.5s ease-in-out;
 
   img {
-    height: 35rem;
+    height: 30rem;
     margin: 0 auto;
     opacity: 0;
   }
@@ -76,34 +76,33 @@
 .light {
   color: white;
 }
+ 
 
-.explore {
-  position: absolute;
-  z-index: 1;
-  top: 55rem;
-  left: 74rem;
+ .more {
 
+  padding-top: 20rem;
+  text-align: center;
 
-}
-
-.cta-section {
-  padding-top: 70rem;
-
-  &.col-1-of-2 {
-    grid-gap: 0;
-
-  }
-
-  .button {
-    font-size: 2rem;
-    padding: 3rem;
-    text-transform: uppercase;
-
-    &.gray {
-      background: $gray-color;
+  .cta-section {
+    padding-top: 15rem;
+  
+    &.col-1-of-2 {
+      grid-gap: 0;
+  
+    }
+  
+    .button {
+      font-size: 2rem;
+      padding: 3rem;
+      text-transform: uppercase;
+  
+      &.gray {
+        background: $gray-color;
+      }
     }
   }
-}
+ }
+
 
 @media (max-width: 480px) {
 
@@ -128,14 +127,14 @@
 .caption {
   h1 {
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 3.5rem;
     opacity: 0;
   }
 
   p {
     width: 25vw;
     color: $white-clouds-color;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .button {

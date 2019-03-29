@@ -6,9 +6,11 @@
   img {
 
     &.sharing {
+      height: 35rem;
+    }
+    &.map {
       height: 45rem;
     }
-
     &.insta {
       position: absolute;
       top: 160rem;
