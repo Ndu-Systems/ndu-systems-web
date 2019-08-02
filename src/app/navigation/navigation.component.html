@@ -1,5 +1,8 @@
 <nav class="show-menu">
-  <img src="assets/images/logo-white.png" class="logo" alt="logo">
+  <a routerLink="" (click)="closeNav()" class="logo">
+    <img src="assets/images/logo-white.png"  alt="logo">
+  </a>
+
   <img src="assets/images/close-btn.png" alt="close btn" class="close-btn" id="close-menu" (click)="closeNav()">
   <ul>
     <li>
@@ -19,5 +22,5 @@
       <span>Let us know what you need !</span>
     </li>
   </ul>
-  
+
 </nav>

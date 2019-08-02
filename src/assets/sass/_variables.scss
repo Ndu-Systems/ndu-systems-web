@@ -6,10 +6,10 @@ $orange-medium-color: #F77824;
 $orange-light-color: #FE9B24;
 
 //white
-$white-color: #fff;
+$white-color: #ffffff;
 $white-clouds-color: #ecf0f1;
 $white-dark-color: #9E9C9B;
- 
+
 
 //black
 $black-color : #000000;
@@ -20,9 +20,9 @@ $gray-color: #2e373d;
 $pink-color: #E91E63;
 
 //sass break-point variables here
- 
+
  $bp-largest:75em; //1200px
- $bp-large:68.75em; //1100px 
+ $bp-large:68.75em; //1100px
  $bp-medium: 56.25em; //900px
 
  //Device break-points
@@ -30,8 +30,8 @@ $pink-color: #E91E63;
  $bp-ipad : 48em; // (768px / 16px)
 
 
- $bp-iphone-8-plus: 25.875em; // (414px/16px) 
- $bp-pixel-2 : 25.6875em; // (411px/16px) 
+ $bp-iphone-8-plus: 25.875em; // (414px/16px)
+ $bp-pixel-2 : 25.6875em; // (411px/16px)
 
  $bp-iphone-x: 23.4375em; // (375px/16px)
  $bp-galaxy-5: 22.5em; // (360px/16px)

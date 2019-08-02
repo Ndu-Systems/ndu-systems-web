@@ -1,3 +1,7 @@
  .col-1-of-2{
     grid-template-columns: 94% auto;
  }
+ .show-menu {
+  height: 100%;
+  z-index: 10000;
+ }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe9b24"/>
+      <stop offset="0.46" stop-color="#f77824"/>
+      <stop offset="1" stop-color="#ff5a1a"/>
+    </linearGradient>
+  </defs>
+  <g id="service-4" transform="translate(-308 -1408)">
+    <circle id="Ellipse_260" data-name="Ellipse 260" cx="46" cy="46" r="46" transform="translate(308 1408)" fill="#ecf0f1"/>
+    <g id="Orion_iphone_1_" data-name="Orion_iphone (1)" transform="translate(325 1427)">
+      <path id="layer3" d="M14,49.5A2.5,2.5,0,0,0,16.5,52h25A2.5,2.5,0,0,0,44,49.5V42H14Zm30-45A2.5,2.5,0,0,0,41.5,2h-25A2.5,2.5,0,0,0,14,4.5V8.666H44Z" fill="url(#linear-gradient)"/>
+      <path id="layer2" d="M14,10H44V43.332H14Z" transform="translate(0 -1.334)" fill="#ecf0f1"/>
+      <circle id="layer1" cx="1.667" cy="1.667" r="1.667" transform="translate(27.333 45.332)" fill="#7b8baf"/>
+      <path id="opacity" d="M17.333,4.5a2.5,2.5,0,0,1,2.5-2.5H16.5A2.5,2.5,0,0,0,14,4.5V8.666h3.333Zm0,45V42H14v7.5A2.5,2.5,0,0,0,16.5,52h3.333a2.5,2.5,0,0,1-2.5-2.5Z" fill="#000064" opacity="0.14"/>
+      <path id="opacity-2" data-name="opacity" d="M44,10h-6.25L14,33.749v7.083l30-30Zm0,10L20.666,43.332H42.332L44,41.665Z" transform="translate(0 -1.334)" fill="#0652dd" opacity="0.25"/>
+      <path id="stroke" d="M14,49.5A2.5,2.5,0,0,0,16.5,52h25A2.5,2.5,0,0,0,44,49.5V42H14Zm30-45A2.5,2.5,0,0,0,41.5,2h-25A2.5,2.5,0,0,0,14,4.5V8.666H44ZM44,42V8.666m-30,0V42" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <circle id="stroke-2" data-name="stroke" cx="1.667" cy="1.667" r="1.667" transform="translate(27.333 45.332)" stroke-width="2" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe9b24"/>
+      <stop offset="0.46" stop-color="#f77824"/>
+      <stop offset="1" stop-color="#ff5a1a"/>
+    </linearGradient>
+  </defs>
+  <g id="service-2" transform="translate(-825 -897)">
+    <circle id="Ellipse_261" data-name="Ellipse 261" cx="46" cy="46" r="46" transform="translate(825 897)" fill="#ecf0f1"/>
+    <g id="Orion_clouds" transform="translate(839 911.082)">
+      <path id="layer2" d="M54.2,36.7A10,10,0,0,0,52,17a13,13,0,0,0-25,4" fill="url(#linear-gradient)"/>
+      <path id="layer1" d="M56,43A12,12,0,0,0,44,31H42.8a16,16,0,0,0-30.7,4H12a10,10,0,0,0,0,20H44.1A12,12,0,0,0,56,43Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

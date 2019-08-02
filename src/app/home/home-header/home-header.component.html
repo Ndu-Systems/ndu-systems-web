@@ -2,16 +2,16 @@
   <div class="col-1-of-3">
       <div>
         <a routerLink="">
-            <img src="assets/images/logo.png" class="logo" alt="logo">
-        </a>        
+            <img src="assets/images/logo.svg" class="logo" alt="logo">
+        </a>
       </div>
       <div class="">
-        <a routerLink="request-quote">
+        <a routerLink="request-quote" (click)="emitHeading()">
             <h1>Request Quote</h1>
-        </a>     
+        </a>
       </div>
       <div>
-        <img src="assets/images/menu.png" class="burger-menu desktop" alt="burger-menu" (click)=" openNav()">        
+        <img src="assets/images/menu.png" class="burger-menu desktop" alt="burger-menu" (click)=" openNav()">
         <img src="assets/images/burger-menu.png" class="burger-menu mobi" alt="burger-menu" (click)=" openNav()">
       </div>
     </div>

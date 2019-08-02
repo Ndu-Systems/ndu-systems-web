@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe9b24"/>
+      <stop offset="0.46" stop-color="#f77824"/>
+      <stop offset="1" stop-color="#ff5a1a"/>
+    </linearGradient>
+  </defs>
+  <g id="service-5" transform="translate(-825 -1412)">
+    <circle id="Ellipse_261" data-name="Ellipse 261" cx="46" cy="46" r="46" transform="translate(825 1412)" fill="#ecf0f1"/>
+    <g id="Group_367" data-name="Group 367">
+      <path id="layer3" d="M45,29.3,28,35V55.4L45,61l17-5.6V35Z" transform="translate(839 1425)" fill="#ff5a1a"/>
+      <path id="layer2" d="M15,28.9,2,33.2V48.8l13,4.3,13-4.3V33.2L15,28.9Z" transform="translate(839 1425)" fill="#f77824"/>
+      <path id="layer1" d="M30,3,18,6.9V21.1L30,25l12-3.9V6.9Z" transform="translate(839 1425)" fill="url(#linear-gradient)"/>
+      <path id="opacity" d="M62,35,45,29.3,28,35l17,5.6Z" transform="translate(839 1425)" fill="#fff" opacity="0.25"/>
+      <path id="opacity-2" data-name="opacity" d="M28,35V55.4L45,61V40.6Z" transform="translate(839 1425)" fill="#000064" opacity="0.15"/>
+      <path id="opacity-3" data-name="opacity" d="M2,33.2V48.8l13,4.3V37.5Z" transform="translate(839 1425)" fill="#000064" opacity="0.2"/>
+      <path id="opacity-4" data-name="opacity" d="M15,37.5V53.1l13-4.3V33.2Z" transform="translate(839 1425)" fill="#000064" opacity="0.15"/>
+      <path id="opacity-5" data-name="opacity" d="M42,6.9,30,3,18,6.9l12,4,12-4Z" transform="translate(839 1425)" fill="#fff" opacity="0.25"/>
+      <path id="opacity-6" data-name="opacity" d="M18,6.9V21.1L30,25V10.9l-12-4Z" transform="translate(839 1425)" fill="#000064" opacity="0.15"/>
+      <path id="stroke" d="M62,35V55.4L45,61,28,55.4V35l17-5.7Z" transform="translate(839 1425)" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="stroke-2" data-name="stroke" d="M62,35,45,40.6,28,35m17,5.6V61M28,33.2V48.8L15,53.1,2,48.8V33.2l13-4.3Z" transform="translate(839 1425)" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="stroke-3" data-name="stroke" d="M28,33.2,15,37.5,2,33.2m13,4.3V53.1M42,6.9V21.1L30,25,18,21.1V6.9L30,3Z" transform="translate(839 1425)" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="stroke-4" data-name="stroke" d="M42,6.9l-12,4-12-4m12,4V25" transform="translate(839 1425)" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

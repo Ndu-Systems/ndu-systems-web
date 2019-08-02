@@ -3,27 +3,76 @@
 .main-section {
   .quote-form {
     margin-top: 5rem;
+    width: 50%;
+    margin: 0 auto;
 
     h1 {
-      .header {
-        font-size: 2rem;
-      }
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: capitalize;
+      text-align: center;
+      border-bottom: solid 0.2px $white-dark-color;
+      padding: 1rem;
+
     }
 
     form {
+      padding: 1rem 4rem;
 
       .alert {
         font-size: 1.5rem;
-        color: white;
-        padding: 2rem;
-        background: lighten($orange-light-color, 0.3);
+        color: $orange-light-color;
+        padding: 0.3rem;
         width: 50%;
+        text-transform: capitalize;
       }
 
+      label {
+        font-weight: 600;
+        color: $white-dark-color;
+        text-transform: capitalize;
+        span {
+          font-size: 12px;
+        }
+      }
+
+      input[type=text],
+      input[type=email],
+      select,
+      textarea {
+        border: 0;
+        border-radius: 0;
+        border-bottom: solid 0.2px $white-dark-color;
+        background: transparent;
+        margin-bottom: 0;
+        color: $white-color;
+        font-weight: 500;
+
+        &:focus {
+          background: lighten($white-dark-color, 0.1);
+        }
+
+      }
+
+      select {
+        cursor: pointer
+      }
+
+      .controls {
+        input[type=text] {
+          &:nth-child(1) {
+            background: lighten($white-dark-color, 0.1);
+          }
+        }
+      }
+
+
       section {
-        background: $gray-color;
-        padding: 2rem;
+        background: #ffffff0d;
+        padding: 1rem 10rem;
+        padding-bottom: 4rem;
         margin-bottom: 2rem;
+
       }
 
       .project {
@@ -32,11 +81,40 @@
         }
       }
 
-      .button {
+      .call-back {
         padding: 2rem 6rem;
-        font-size: 2.5rem;
-        margin: 0 auto;
+        font-size: 15px;
+        margin: 20px auto;
+        color: lighten($white-dark-color, 0.1);
+        text-transform: capitalize;
         float: right;
+        font-weight: 500;
+      }
+
+      .button {
+        padding: 2rem 2rem;
+        font-size: 15px;
+        margin: 20px auto;
+        float: right;
+        border-radius: 5px;
+        font-weight: 500;
+      }
+      input.button {
+        padding: 2rem 2rem;
+        font-size: 15px;
+        margin: 20px auto;
+        float: right;
+        border-radius: 5px;
+        font-weight: 500;
+        background: $orange-color;
+        color: $white-color;
+        &:disabled{
+          background: gray;
+          color: lighten($white-dark-color, 0.1);
+          &:hover {
+            color: $white-color;
+          }
+        }
       }
     }
   }
@@ -56,7 +134,39 @@
 }
 
 @media only screen and (max-width: $bp-iphone-8-plus) {
-  .col-2-of-3 {
+  .col-2-of-3, .col-1-of-2 {
     grid-template-columns: 100%;
+  }
+  .col-1-of-2 {
+    grid-gap: 0;
+  }
+
+  .main-section {
+    .quote-form {
+      width: 100%;
+
+      form {
+        section.information-section, section.project {
+          background: transparent;
+          padding: 0;
+          padding-bottom: 4rem;
+          margin-bottom: 2rem;
+
+          h1 {
+            font-size: 12px;
+            text-align: left;
+            font-weight: 400;
+          }
+        }
+        .controls {
+          padding: 1rem 0;
+        }
+        .button {
+            margin: 0 -2rem;
+            width: 100%;
+        }
+      }
+
+    }
   }
 }

@@ -8,8 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { OurServicesComponent } from './our-services/our-services.component';
-
-
+import { BannerComponent } from './banner/banner.component';
+import { HttpClientModule , HttpClient} from '@angular/common/http';
 @NgModule({
    declarations: [
       AppComponent,
@@ -18,15 +18,17 @@ import { OurServicesComponent } from './our-services/our-services.component';
       HomePackagesComponent,
       FooterComponent,
       AboutUsComponent,
-      OurServicesComponent
+      OurServicesComponent,
+      BannerComponent
    ],
    imports: [
       BrowserModule,
       AppRoutingModule,
       FormsModule,
-      ReactiveFormsModule
+      ReactiveFormsModule,
+      HttpClientModule
    ],
-   providers: [],
+   providers: [HttpClient],
    bootstrap: [
       AppComponent
    ]

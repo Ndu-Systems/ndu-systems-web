@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <g id="service-1" transform="translate(-308 -893)">
+    <circle id="Ellipse_260" data-name="Ellipse 260" cx="46" cy="46" r="46" transform="translate(308 893)" fill="#ecf0f1"/>
+    <g id="Orion_color-wheel_1_" data-name="Orion_color-wheel (1)" transform="translate(322.028 906.98)">
+      <path id="layer3" d="M48.3,15.7a16.8,16.8,0,1,0,.8,5.3,17,17,0,0,0-.8-5.3Z" fill="#ed4c49"/>
+      <path id="layer2" d="M61.1,37.7A17,17,0,0,0,48.2,26.3,17,17,0,0,1,28.8,37.7a17,17,0,1,0,32.3,0Z" fill="#fce349"/>
+      <path id="layer1" d="M28.8,37.7a16.2,16.2,0,0,0,6.3,0A17,17,0,1,0,32,54a16.9,16.9,0,0,1-3.2-16.3Z" fill="#49bcff"/>
+      <path id="opacity" d="M35.1,37.7a16.6,16.6,0,0,1-6.3,0A16.9,16.9,0,0,0,31.9,54a16.9,16.9,0,0,0,3.2-16.2Zm-6.3,0A17,17,0,0,1,31.9,32a16.9,16.9,0,0,0-16.1-5.7,17,17,0,0,0,13,11.4Z" opacity="0.2"/>
+      <path id="opacity-2" data-name="opacity" d="M31.9,32a16.9,16.9,0,0,1,3.2,5.7,17,17,0,0,0,13-11.4A16.9,16.9,0,0,0,31.9,32Z" opacity="0.2"/>
+      <path id="opacity-3" data-name="opacity" d="M28.8,37.7a16.6,16.6,0,0,0,6.3,0A16.9,16.9,0,0,0,31.9,32a17,17,0,0,0-3.1,5.7Z" opacity="0.4"/>
+      <path id="stroke" d="M45,32a17,17,0,0,1-9.8,5.7M22,34.8a17,17,0,1,1,26.2-8.5m-32.4,0A17,17,0,1,1,10,28.6M32,54a17,17,0,0,1-3.3-16M32,32a17,17,0,1,1,6,26.5" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

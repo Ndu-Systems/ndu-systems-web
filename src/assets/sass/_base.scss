@@ -43,8 +43,10 @@ header {
 
   .logo {
 
-    margin-top: -2rem;
+    margin-top: 0;
     float: left;
+    height: 5rem;
+
   }
 
   h1 {
@@ -59,11 +61,9 @@ header {
   }
 
 }
- 
+
 .main-section {
-  // height: 125vh;
-  padding: 5%;
-  padding-top: 1%;
+
 }
 
 .container {
@@ -154,7 +154,7 @@ nav {
 
 @media only screen and (max-width: $bp-ipad-pro) {
 
-   
+
 
 }
 
@@ -166,7 +166,7 @@ nav {
     display: block;
 
     li {
-      padding-bottom: 2rem;
+      padding-bottom: 4rem;
 
       span {
         display: none;
@@ -182,14 +182,13 @@ nav {
 
 }
 
-@media only screen and (max-width: 28.2rem) {
+@media only screen and (max-width:600px) {
   nav ul {
-    padding: 10rem;
-    padding-left: 0;
-    display: block;
+    padding: 15rem 0;
+    text-align: center;
 
     li {
-      padding-bottom: 2rem;
+      padding-bottom: 4rem;
 
       span {
         display: none;

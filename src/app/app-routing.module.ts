@@ -7,6 +7,7 @@ import { RequestQouteComponent } from './request-qoute';
 import { FooterComponent } from './footer';
 import { AboutUsComponent } from './about-us';
 import { OurServicesComponent } from './our-services/our-services.component';
+import { BannerComponent } from './banner';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -24,7 +25,8 @@ export const declarations: Array<any> = [
   HomeMapComponent,
   HomePackagesComponent,
   FooterComponent,
-  AboutUsComponent
+  AboutUsComponent,
+  BannerComponent
 ];
 
 

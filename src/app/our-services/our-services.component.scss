@@ -1,22 +1,28 @@
 @import "../../assets/sass/variables";
 
 .section-body {
-  h1 {
-    font-size: 3.5rem;
-    text-align: center;
+  .offer {
+    width: 35%;
+    padding: 2%;
+    padding-left: 20%;
+
+    h1 {
+
+      font-size: 18px;
+      font-weight: 400;
+
+      .header {
+        font-size: 35px;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+
+      &.description {
+        color: $white-color;
+      }
+    }
   }
 
-  p {
-    font-size: 2rem;
-    text-align: center;
-    width: 45%;
-    margin: 0 auto;
-    color: $white-clouds-color;
-  }
-
-  .col-1 {
-    margin-bottom: 5rem;
-  }
 
   .col-3 {
     margin: 5rem auto;
@@ -55,55 +61,143 @@
       p {
         width: 100%;
         position: relative;
-        // padding-left: 7rem;
-        // background: red;
-        // text-align-last: left;
-        span{
-            width: 1rem;
-            height: 1rem;
-            border-radius: 1rem;
-            background: #E91E63;
-            display: inline-block;
-            top: 1rem;
-            margin-right: 1rem;
-            margin-top: 4rem;;
+
+        span {
+          width: 1rem;
+          height: 1rem;
+          border-radius: 1rem;
+          background: $pink-color;
+          display: inline-block;
+          top: 1rem;
+          margin-right: 1rem;
+          margin-top: 4rem;
+          ;
         }
       }
     }
   }
+
+  .col-1-of-3 {
+    margin-bottom: 5%;
+
+    &.cards {
+
+      margin: 5rem auto;
+    }
+
+    .wrapper-card {
+      cursor: pointer;
+
+
+      .card {
+        background: transparent;
+
+        &:hover {
+          border-bottom: solid 2px $orange-medium-color;
+        }
+
+        .card-body {
+          width: 80%;
+          margin: 0 auto;
+          border-bottom: solid .2px gray;
+          margin-bottom: 2rem;
+
+          .col-1-of-2 {
+            &.heading {
+              grid-gap: 0;
+              grid-template-columns: 30% auto;
+
+              h1 {
+                .header {
+                  font-size: 20px;
+                  color: $white-color;
+                  text-transform: capitalize;
+                }
+              }
+
+              img {
+                &.header-image {
+                  height: 5rem;
+                  margin-top: 4rem;
+                }
+              }
+
+            }
+
+          }
+
+          h1 {
+            margin: 6rem auto;
+            margin-bottom: 3rem;
+
+            span.description {
+              color: $white-clouds-color;
+              font-size: 1.8rem;
+              font-weight: 400;
+            }
+          }
+
+
+        }
+
+        .card-cta {
+          margin: 0 auto;
+
+          a.cta {
+            font-size: 15px;
+            color: $orange-medium-color;
+            padding-right: 1rem;
+
+            &:hover {
+              font-weight: 600;
+            }
+          }
+
+          img.shevron {
+            position: absolute;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 @keyframes rollIn {
-    0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); }
-    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
- } 
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) rotate(-120deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg);
+  }
+}
 
 
 
- //media queries
- @media only screen and (max-width: 28.2rem) {
-   .section-body {
-     .col-1 {
-       display: none;
-     }
+//media queries
+@media only screen and (max-width: 28.2rem) {
+  .section-body {
+    .offer {
+      width: 100%;
+      padding: 1rem;
+      h1 {
+        font-size: 12px;
+        .header {
+          font-size: 20px;
+          font-weight: 500;
+        }
 
-     .col-3 {
+        &.description {
+          width: 80%;
+        }
+      }
+
+    }
+    .col-1-of-3  {
       grid-template-columns: 100%;
-      div:nth-child(1) {
-        text-align: center;
-  
-        h1 {
-          color: $white-clouds-color;
-          font-size: 4rem;
-          font-weight: 700;
-        }
-      }
-
-      div:nth-child(3) {    
-          p {
-         display: none;
-        }
-      }
-     }
-   }
- }
+    }
+  }
+}
